@@ -151,7 +151,6 @@
   .exp-item p{color:var(--text-dim); font-size:14.5px;}
 
   /* contact */
-  .contact{text-align:left;}
   .contact-links{display:flex; flex-direction:column; gap:14px; margin-top:26px;}
   .contact-link{
     display:flex; justify-content:space-between; align-items:center;
@@ -255,7 +254,7 @@
       </div>
       <div class="skill-card">
         <h3>Tools</h3>
-        <ul><li>Git</li><li>GitHub</li><li>VS Code</li><li>Docker <em style="opacity:.6">(learning)</em></li></ul>
+        <ul><li>Git</li><li>GitHub</li><li>VS Code</li><li>Vercel</li><li>Render</li><li>Neon</li></ul>
       </div>
     </div>
   </section>
@@ -264,26 +263,23 @@
     <div class="prompt">ls projects/</div>
     <h2 class="section-title">Projects</h2>
 
-    <!-- ⬇️ Reemplaza estas tarjetas conforme termines cada proyecto real ⬇️ -->
-    <div class="project-card empty">
-      [ project-01 ] — full-stack CRUD app (React + Node + PostgreSQL) — coming soon
-    </div>
-    <div class="project-card empty">
-      [ project-02 ] — security / NLP tool — coming soon
-    </div>
-    <!-- Ejemplo de tarjeta ya llena, para que veas el formato cuando tengas un proyecto real:
     <div class="project-card">
       <div class="project-head">
-        <h3>Expense Tracker</h3>
+        <h3>Expense Tracker — Full-Stack Web App</h3>
         <div class="project-links">
-          <a href="#" target="_blank">Live</a>
-          <a href="#" target="_blank">GitHub</a>
+          <a href="https://expense-tracker-sandy-two-44.vercel.app/" target="_blank">Live</a>
+          <a href="https://github.com/MarianaCabbel/expense-tracker" target="_blank">GitHub</a>
         </div>
       </div>
-      <p>Full-stack app to log and categorize expenses, with user auth and monthly summaries.</p>
-      <div class="stack"><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>JWT</span></div>
+      <p>Full-stack expense tracker with JWT authentication, complete CRUD functionality, and
+      category-based spending summaries. Backend on Render, frontend on Vercel, with a relational
+      PostgreSQL database (Neon) enforcing per-user row-level authorization.</p>
+      <div class="stack"><span>React</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>JWT</span></div>
     </div>
-    -->
+
+    <div class="project-card empty">
+      [ project-02 ] — security / password strength analyzer — coming soon
+    </div>
   </section>
 
   <section id="experience" class="reveal">
@@ -322,7 +318,9 @@
       <a class="contact-link" href="https://github.com/MarianaCabbel" target="_blank">
         <span>github.com/MarianaCabbel</span><span class="arrow">→</span>
       </a>
-      <!-- Si creas un LinkedIn, agrégalo aquí con el mismo formato -->
+      <a class="contact-link" href="https://www.linkedin.com/in/mariana-cabbel-985166264/" target="_blank">
+        <span>linkedin.com/in/mariana-cabbel</span><span class="arrow">→</span>
+      </a>
     </div>
   </section>
 
